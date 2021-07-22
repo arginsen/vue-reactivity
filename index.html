@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script type="module" src="./vue/index.js"></script>
+</head>
+<body>
+    <div id="app">{{text}}</div>
+    <button id="update">update</button>
+
+    <!-- type="module"的模块会默认使用 defer 加载方式，不能使自己的 js 加载快于 vue -->
+    <script src="./index.js" defer></script>
+</body>
+</html>
