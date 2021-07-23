@@ -463,3 +463,7 @@ export default class Watcher {
   }
 }
 ```
+
+# 参考
+
+探索 Vue.js 响应式原理: https://www.yuque.com/wangpingan/cute-frontend/ar4qkb#xfZjx
